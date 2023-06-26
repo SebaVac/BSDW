@@ -16,9 +16,13 @@ function Inicio() {
                             </a>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarSupportedContent" />
-                        <Nav>
-                            
-                        </Nav>
+                        <Navbar.Collapse id="navbarSupportedContent">
+                            <Nav className="contenedor me-auto mb-2 mb-lg-0">
+                                <NavLink href="/"><font color="white">Persona</font></NavLink>
+                                <h1><font color="white">|</font></h1>
+                                <NavLink href="/"><font color="white">Empresa</font></NavLink>
+                            </Nav>
+                        </Navbar.Collapse>
                         
                     </div>
                 </Navbar>

@@ -19,7 +19,7 @@ function Index() {
                                 <h1><font color="white">|</font></h1>
                                 <NavLink href="/"><font color="white">Empresa</font></NavLink>
                             </Nav>
-                            <Button className="botonav" href="/registro">Registro</Button>
+                            <Button href="/registro">Registro</Button>
                         </Navbar.Collapse>
                     </div>
                 </Navbar>
